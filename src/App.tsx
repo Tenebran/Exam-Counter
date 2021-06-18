@@ -3,11 +3,11 @@ import './App.scss';
 import Counter from './modules/components/Counter/Counter';
 
 function App() {
-  let [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   function CounterPlus() {
     if (counter < 5) {
-      return setCounter(++counter);
+      return setCounter(counter + 1);
     }
   }
 
