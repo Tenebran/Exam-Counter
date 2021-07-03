@@ -2,19 +2,18 @@
   font-size: 40px;
   height: 50px;
   min-width: 100px;
-  padding: 5px;
-  font-weight: 700;
+  font-weight: 900;
   background-color: rgb(39, 188, 207);
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  color: rgb(53, 53, 73);
 
   &__not-active {
     font-size: 40px;
     height: 50px;
     min-width: 100px;
-    padding: 5px;
-    font-weight: 700;
+    font-weight: 900;
     background-color: rgb(143, 180, 185);
     border: none;
     border-radius: 10px;
